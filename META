@@ -1,0 +1,6 @@
+name="sate"
+description="sate - a testing framework for AI systems."
+version="0.1"
+depends="thread,core"
+archive(byte)="sate.cmo"
+archive(native)="sate.cmx"

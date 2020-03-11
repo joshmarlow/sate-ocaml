@@ -1,0 +1,28 @@
+TODO
+
+Implement pole balancing problem
+Implement grid-world problem from "Reinforcement Learning textbook"
+Implement Dyna-Q agent for testing
+Implement agents in the AIQ code
+Investigate Python interface
+Port AIQ to sate OR use Python interface as wrapper
+
+ACCOMPLISHED
+    (9:27 PM EST, April 14)
+        Implement listing of available agents and problems
+    (11:45 PM EST, April 14)
+        Implement Keep-it-up game
+
+    (1:08 PM EST, April 16, 2016)
+        First successful sate run and storage of results to the filesystem! (at 2016-04-16T-13-08-41)
+        Implement saving of problem run results to filesystem
+        Implement Rando agent
+    (6:19 PM EST, April 16, 2016)
+        Split problem_state into:
+            - problem_state used by the problem itself
+            - problem_instance which is what is exposed to the agent
+    (12:23 PM EST, April 17, 2016)
+        Implement loading/displaying problem run results from filesystem
+                Mostly implemented last night, but fixed some bugs in it this today
+    (3:18 PM EST, April 17, 2016)
+        report subcommand now has two modes, 'summary' and 'chart'
